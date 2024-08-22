@@ -1,9 +1,13 @@
+
 import NavTop from "@/components/layout/NavTop";
 import PostComponent from "@/components/layout/PostComponent";
 
-export default function SearchPage() {
+export default function ForYouPage() {
     const navtop = [
-        {name: 'Tìm kiếm', link: '/search'}
+        {name: 'Dành cho bạn', link: '/for_you'},
+        {name: 'Đang theo dõi', link: '/following'},
+        {name: 'Đã thích', link: '/liked'},
+        {name: 'Đã lưu', link: '/saved'}
     ]
     return (
         <div>
