@@ -1,5 +1,6 @@
 export default function ProfilePage() {
+
     return (
-        <div>day la trang profile</div>
+        <div>day la trang profile của</div>
     );
 }
